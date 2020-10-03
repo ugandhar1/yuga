@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	.card-header ul  {
+		height: 600px;
+		width: 1400px;
+		background-color:  white;
+    list-style: none;
+    display: inline-flex;
+	}
+  .card-header ul li{
+    width: 500px;
+    margin: 50px;
+    padding: 0px;
+  }
+  .card-header ul p{
+    float:right;
+    text-align: center;
+  }
+  .a{
+    position: absolute;
+    float: right;
+    text-align: center;
+    top: 200px;
+    padding: 85px;
+    font-size: 20px;
+    background-color:  white;
+  }
+h1{
+  font-family: 'Aclonica';
+  font-size: 62px;
+}
+.b{
+  box-sizing: 20px;
+}
+.btn {
+  background-color: #2196F3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  top: 500px;
+  float: left;
+  left: 130px;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn:hover, .dropdown:hover .btn {
+  background-color: #0b7dda;
+}
+.dropdown1 {
+  position: absolute;
+  display: inline-block;
+  top: 600px;
+  left: 130px;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 2;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 17px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover {background-color: #ddd}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.btn1:hover, .dropdown1:hover .btn1 {
+  background-color: #0b7dda;
+}
+.btn1{
+  height: 50px;
+  width: 40px;
+  background-color: #f1f1f1;
+}
+}
+</style>
+<body>
+
+ <div class="jumbotron" style="height: 700px;">
+ 	
+ 	<div class="card-header">
+    <ul>
+       <li><a href="#">Paulini</a></li>
+        <li><a href="#">Holidays</a></li>
+          <li><a href="#">Offers</a></li>
+            <li><a href="#">Contacts</a></li>
+              <li><a href="#">Wilhelm Dawall</a></li>
+              <img src="yu4.JPG" alt="Avatar" style="width:50px; border-radius: 30px; position: absolute;right: 120px; top:110px;">
+    </ul>
+        <div class="a">
+            <p><i>i want to See</i><br><h1>Sicily</h1></p>
+            <a href="b"><button>Discover more</button></a>
+            <img src="Capture.JPG" style="position: absolute; left: 1050px; top:120px;">
+        </div>  
+                  <div class="dropdown">
+                       <button class="btn" style="border-left:1px solid #0d8bf2">
+                               <i class="fa fa-caret-down"></i>
+                        </button>
+                      <div class="dropdown-content">
+                               <a href="#">Choose your <br>Destination</a>
+                               <a href="#"></a>
+                               <a href="#"></a>
+                      </div>
+                  </div>
+                       <div class="dropdown1">
+                            <button class="btn1" style="border-left:1px solid #0d8bf" >
+                                 <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content1">
+                                <a href="#">Start by the selection destination<br>you want to visit</a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                           </div>
+                       </div>
+</div>
+</div>
+</body>
+</html>
